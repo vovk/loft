@@ -1,0 +1,40 @@
+.wrapper{
+	width: 400px;
+	margin: 0 auto;
+}
+.tab{
+	display: none;
+	overflow: hidden;
+}
+.tab-display{
+	display: block;
+}
+.tab-wrapper{
+	border-radius: 20px;
+	cursor: pointer;
+	margin-bottom: 5px;
+	position: relative;
+}
+.tab-wrapper>h3{
+	background: url(img/icon1.png) no-repeat 90% center;
+	border-radius: 50px;
+	margin: 0;
+	padding: 5px 15px;
+	position: relative;
+}
+h3.title{
+	background: url(img/icon2.png) no-repeat 90% center;
+	background-color: #ff8663;
+}
+.tab-wrapper p{
+	padding: 5px 15px;
+}
+.tab-wrapper:nth-of-type(even){
+	background-color: #696666;
+	color: #fff;
+}
+.tab-wrapper:nth-of-type(odd){
+	background-color: #e7e7e7;
+	color: #4f4f4f;
+}
+
